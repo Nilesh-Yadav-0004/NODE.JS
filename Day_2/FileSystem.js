@@ -37,6 +37,8 @@ console.log('~ value:', value);
 const updateValue = data.replace(
     value.splice(
         value.findIndex((el) => el === 'world'),1,
-    )
-)
+    ),
+    '',
+);
+console.log('` updateValue:', updateValue);
 })
