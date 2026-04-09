@@ -7,7 +7,9 @@ let readFileSync = fs.readFileSync('./even.js',{ encoding: 'utf-8'});
 // fs.readFile('./even.js', { encoding: 'utf-8' }, (err, data)=>
 // {
 //     if(data){
-//         console.log('🚀 ~ if(data){:', if(data){);
+//         console.log('🚀 ~ if(data){:', 
+// 
+// if(data){ );
 //         }else{
 //             console.log(err);
 //         }
@@ -22,3 +24,13 @@ fs.writeFile('./note.txt', 'hello', (err) => {
     }
     });
 */
+
+// edit the text 
+
+fs.readFile('./note.txt', 'utf-8', (err, data) => {
+    if(err) {
+        console.log(err);
+    }
+    const value = data.split(' ');
+console.log('~ value:', value);
+})
