@@ -33,4 +33,10 @@ fs.readFile('./note.txt', 'utf-8', (err, data) => {
     }
     const value = data.split(' ');
 console.log('~ value:', value);
+
+const updateValue = data.replace(
+    value.splice(
+        value.findIndex((el) => el === 'world'),1,
+    )
+)
 })
