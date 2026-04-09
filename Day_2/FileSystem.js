@@ -41,4 +41,11 @@ const updateValue = data.replace(
     '',
 );
 console.log('` updateValue:', updateValue);
-})
+
+fs.writeFile('./note.txt', updateValue.trim(), (errs, data1) =>
+{
+    if(errs) console.log(errs);
+
+    console.log(data1);
+  });
+});
