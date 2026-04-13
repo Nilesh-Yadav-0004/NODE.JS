@@ -1,0 +1,24 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "How to create Folder and File Structure in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "server_1": "nodemon index2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nilesh-Yadav-0004/NODE.JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nilesh-Yadav-0004/NODE.JS/issues"
+  },
+  "homepage": "https://github.com/Nilesh-Yadav-0004/NODE.JS#readme",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
