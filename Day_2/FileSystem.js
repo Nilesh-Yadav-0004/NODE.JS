@@ -7,6 +7,7 @@ let readFileSync = fs.readFileSync('./even.js',{ encoding: 'utf-8'});
 // fs.readFile('./even.js', { encoding: 'utf-8' }, (err, data)=>
 // {
 //     if(data){
+//     if(data){
 //         console.log('🚀 ~ if(data){:', 
 // 
 // if(data){ );
